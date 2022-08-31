@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>to-do-list</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- heading -->
+        <h1>To Do List</h1>
+        <!-- main content start -->
+        <div class="container">
+            <div class="form">
+                <!-- adding the task -->
+                <input id="inputField" type="text" placeholder="New Task">
+                <button id="addToDo"><i class="fa fa-plus"></i></button>
+            </div>
+            <!-- starting of list -->
+            <!-- heading -->
+            <h2>Tasks</h2>
+            <div class="status">
+                <!-- total no of task in list -->
+                <h4>Total Tasks : <span id="task-count">0</span></h4>
+            </div>
+            <div class="tasks">
+                <!-- list -->
+                <div id="toDoContainer"></div>
+            </div>
+            <div class="allBtn">
+                <!-- buttons to edit list -->
+                <div id="completed" class="btn-style">all complete</div>
+                <div id="deleted" class="btn-style">all delete</div>
+            </div>
+        </div>
+        <!-- main content end -->
+        <!-- link to js file -->
+    <script src="main.js"></script>
+    </body>
+</html>

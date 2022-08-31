@@ -1,0 +1,120 @@
+body{
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Fira sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #374151;
+    color: #FFF;
+}
+
+h1 {
+    font-weight: 300;
+    color: #6B7280;
+}
+
+.container {
+    width: 75%;
+}
+
+.form {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+#inputField {
+    width: 88%;
+    height: 30px;
+    background-color: #1F2937;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+    color: #EEE;
+}
+
+#inputField::placeholder {
+    color: #6B7280;
+}
+
+input,button {
+    border: none;
+    outline: none;
+    appearance: none;
+    background: none;
+}
+
+h2 {
+    font-weight: 300;
+    color: #6B7280;
+}
+
+#addToDo {
+    width: 50px;
+    font-size: 30px;
+}
+
+.task {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: #111827;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 1px 10px;
+   
+}
+
+.list-item{
+    word-wrap: break-word;
+    width:80%;
+    cursor: pointer;
+}
+
+.action-btn{
+    color:white;
+    cursor: pointer;
+}
+
+.btn-style{
+    margin-top: 5px;
+    width: 45%;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-style:hover{
+    background-color: #6B7280;
+    color: #374151;
+    font-weight: bold;
+}
+
+.complete-all{
+    text-decoration: line-through;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.allBtn {
+    display: flex;
+    color: #6B7280;
+    margin-left: 65%;
+}
+
+h4 {
+    color: #6B7280;
+}
