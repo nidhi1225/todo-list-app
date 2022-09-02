@@ -12,6 +12,9 @@ body{
     body {
         width: 100%;
     }
+    .btn-style {
+        margin: 0
+    }
   }
 
 h1 {
