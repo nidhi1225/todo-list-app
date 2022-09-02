@@ -8,6 +8,11 @@ body{
     background: #374151;
     color: #FFF;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+  }
 
 h1 {
     font-weight: 300;
