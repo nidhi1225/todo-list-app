@@ -100,8 +100,8 @@ h2 {
     padding: 3px;
     cursor: pointer;
     border-radius: 5px;
-    margin-left:-50px;
-    margin-right:70px;
+/*     margin-left:-50px;
+    margin-right:70px; */
 }
 
 .btn-style:hover{
@@ -122,7 +122,7 @@ h2 {
 .allBtn {
     display: flex;
     color: #6B7280;
-    margin-left: 65%;
+    margin-left: 50px;
 }
 
 h4 {
